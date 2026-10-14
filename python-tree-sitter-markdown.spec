@@ -1,6 +1,6 @@
 Name:		python-tree-sitter-markdown
 Version:	0.5.1
-Release:	1
+Release:	2
 Summary:	Tree-sitter markdown grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/9a/87/8f705d8f99337c8a691bcc8c2
 # PyPI sdist omits src/tree_sitter/*.h
 Source1:	tree-sitter-c-headers.tar.xz
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
